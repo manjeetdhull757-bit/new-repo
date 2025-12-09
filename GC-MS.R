@@ -10,7 +10,7 @@ library(multcomp)
 library(car)
 library(purrr)
 
-#------------------------ FULL HARDCODED DATA -----------------------
+#------------------------ FULL HARDCODED DATA what is this\-----------------------
 gcms_dat <- tibble::tribble(
   ~Plant_ID, ~Treatment, ~Timepoint, ~Pathogen, ~SA, ~ABA,
   2, 'No AM Fungi', 'Before Pathogen', 'Absent', 0.5744, 7.7886,
@@ -230,3 +230,4 @@ ggsave("GCMS_ABA_Publication.png", p_ABA, width=12, height=6.2, dpi=400)
 
 print(p_SA)
 print(p_ABA)
+
